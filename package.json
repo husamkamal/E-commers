@@ -1,0 +1,24 @@
+{
+  "name": "E-commerce",
+  "version": "1.0.0",
+  "description": "An app facilitate a way to buy and sell a clothes simply and easily",
+  "main": "commitlint.config.js",
+  "dependencies": {
+    "is-ci": "^3.0.1"
+  },
+  "scripts": {
+    "start": "cd Backend && npm start",
+    "heroku-postbuild": "cd FrontEnd && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CA-G12/car-trade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CA-G12/car-trade/issues"
+  },
+  "homepage": "https://github.com/CA-G12/car-trade#readme"
+}
