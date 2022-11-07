@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "16.*"
+  },
   "scripts": {
     "start": "cd Backend && npm i && npm start",
     "heroku-postbuild": "cd FrontEnd && npm i &&  npm run build"
