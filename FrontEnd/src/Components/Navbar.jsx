@@ -80,7 +80,7 @@ const Navbar = () => {
           <Link to='/register'>
           <MenuItem>REGISTER</MenuItem>
           </Link>
-          <Link to='Login'>
+          <Link to='/Login'>
           <MenuItem>SIGN IN</MenuItem>
           </Link>
           <Link to='/cart'>
