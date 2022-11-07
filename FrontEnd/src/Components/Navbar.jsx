@@ -77,8 +77,12 @@ const Navbar = () => {
           <Logo>HUSAM.</Logo>
         </Center>
         <Right>
+          <Link to='/register'>
           <MenuItem>REGISTER</MenuItem>
+          </Link>
+          <Link to='Login'>
           <MenuItem>SIGN IN</MenuItem>
+          </Link>
           <Link to='/cart'>
           <MenuItem>
             <Badge overlap="rectangular" badgeContent={quantity} color="primary">
